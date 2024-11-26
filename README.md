@@ -45,7 +45,7 @@ Before staging
 
  ## Procedure
 
- Developer 1.
+## Developer 1.
  1. Create a branch `add-book-review`
  2. Switch to the branch
  3. Add a new file to represent the book review section and  update the file with content
@@ -73,6 +73,61 @@ add a file called book_reviews.html using `touch book_reviews.html` command and 
 Use `git add .` to stage the file
 use  `git commit -m 'add book review section`
 use  `git push` to push to main branch
+
+![](./img/15.gitcommitbranch.png)
+![](./img/16..gitbranchpush.png)
+
+## Raise a PR for the work
+To raise a PR go to the Github, and click  'compare & pull request'
+
+![](./img/17..PR.png)
+
+### Add a PR title and description and add the reviewers (colleagues/TL/Managers)
+
+![](./img/18..PR-number2.png)
+
+After review has been approved then click on the `pull request`,
+Merge any conflicts,manually or automatically.
+
+![](./img/19..MergePullRequest.png)
+![](./img/21..confirmMerge.png)
+
+![](./img/22.Merge-Success.png)
+
+Delete the branch if NOT needed again.
+
+![](./img/23.DeleteBranch.png)
+
+## Developer 2.
+ 1. Clone the current github repository
+ 2. Create a branch `update-events`
+ 3. Switch to the branch
+ 4. update the event file 
+ 5. Stage,commit and push changes with message 'Book review'
+ 6. Push the `update-events` branch to github
+ 7. Raise a PR for the work
+ 8. Merge the work to the main branch
+
+ ## Clone the current github repository
+  `git clone https://github.com/Edward-okoto/greenwood-Library-website.git`
+
+  ![](./img/DEV2.Clone.png) 
+
+  ## Create a branch `Update-events`
+  Use the command `git branch update-events` to create the update-events branch.
+
+  ## Switch to the branch
+Use the `git switch updtae-events` command to switch to the branch.
+
+## Update the events.html file
+
+##  Stage,commit and push changes with message 'Book review'
+
+## Push the `update-events` branch to github
+
+## Raise a PR for the work
+
+## Merge the work to the main branch
 
 
 
