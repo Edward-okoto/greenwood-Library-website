@@ -108,16 +108,24 @@ Delete the branch if NOT needed again.
  7. Raise a PR for the work
  8. Merge the work to the main branch
 
+ ## Pull the recent changes from github repo
+ `git pull`
+ ![](./img/DEV2.Gitpull.png)
+
+ NOTE: git If Developer 2 doesnt have the repository in the first instance,developer can clone the github repo as below
+
  ## Clone the current github repository
   `git clone https://github.com/Edward-okoto/greenwood-Library-website.git`
 
   ![](./img/DEV2.Clone.png) 
 
-  ## Create a branch `Update-events`
+  ## Create a branch `update-events`
   Use the command `git branch update-events` to create the update-events branch.
+ ## Switch to the branch
+Use the `git switch update-events` command to switch to the branch.
 
-  ## Switch to the branch
-Use the `git switch updtae-events` command to switch to the branch.
+![](./img/DEV2.gitswtich.png)
+
 
 ## Update the events.html file
 
