@@ -130,6 +130,12 @@ Use the `git switch update-events` command to switch to the branch.
 ## Update the events.html file
 
 ##  Stage,commit and push changes with message 'Book review'
+`git status`
+![](./img/DEV2.eventfileUpdated.png)
+`git add .`
+![](./img/DEV2.Gitadd.png)
+`git commit -m 'event-font-type updated`
+![](./img/DEV2.Gitcommit.png)
 
 ## Push the `update-events` branch to github
 
