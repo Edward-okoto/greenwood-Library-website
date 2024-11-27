@@ -1,43 +1,38 @@
 # GREENWOOD-LIBRARY-WEBSITE
 
 ## Aim
-1.Practise cloning a git repository and working with branches in git
+* Practise cloning a git repository and working with branches in git
 
-2.Gain experience in staging,committing and pushing changes from multiple developers
+* Gain experience in staging,committing and pushing changes from multiple developers
 
 ## Project Objectives
 Enhancing  greenwood community website-By adding a Book review section and updating the Events section
 
 ## Set-up & Procedure
- 1.We created a repository called the greenwood-library-website,made it public and added a README.md file.
+ * Create a repository called the greenwood-library-website,made it public and added a README.md file.
+![](./img/1.Greenwood%20repo.png)
 
- ![](./img/1.Greenwood%20repo.png)
-
- 2.We cloned the repository into our local machine using git.
-
- ![](./img/2.Gitclone-URL.png)
- ![](./img/03.GitcloneOnVSC.png)
+ * Clone the repository into our local machine using git.
+![](./img/2.Gitclone-URL.png)
+![](./img/03.GitcloneOnVSC.png)
 
  # TASK 
 
- 1.We created `about_us.html`  `contact_us.html`  `events.html`  `Home.html` files on `VSCode` and added content to these files
+ * Create `about_us.html`  `contact_us.html`  `events.html`  `Home.html` files on `VSCode` and added content to these files
+![](./img/5.Other_SECTIONS_on_VSC.png)
 
- ![](./img/5.Other_SECTIONS_on_VSC.png)
-
- 2.We added the files to the staging area using the command `git add .`
+ * Add the files to the staging area using the command `git add .`
    ![](./img/7.git%20add.png)
 
- Note: Before adding files to the staging area,the files would show a red coloration in the working area when you run `git status` and after adding the files,it would be green coloration.
+ * Note: Before adding files to the staging area,the files would show a red coloration in the working area when you run `git status` and after adding the files,it would be green coloration.
 
-Before staging
+* Before staging
+![](./img/7.red%20color%20for%20files.png)
 
- ![](./img/7.red%20color%20for%20files.png)
+* After staging
+![](./img/9.green%20color.png)
 
- After staging
-
- ![](./img/9.green%20color.png)
-
- 3.Commit and push the files to remote repository
+ * Commit and push the files to remote repository
  use the `git commit -m 'created-website-file` and use `git push` respectively.
  ![](./img/11.Git%20commit.png) 
  ![](./img/10.Git%20push.png)
@@ -77,29 +72,24 @@ Add a file called book_reviews.html using `touch book_reviews.html` command and 
 
 ###  Stage,commit and push changes with message 'Book review
 
-Use `git add .` to stage the file
+* Use `git add .` to stage the file
 use  `git commit -m 'add book review section`
 use  `git push` to push to main branch
-
 ![](./img/15.gitcommitbranch.png)
 ![](./img/16..gitbranchpush.png)
 
 ### Raise a PR for the work
-To raise a PR go to Github, click  `compare & pull request`. Add a PR title, description and reviewers (colleagues/TL/Managers) and click `create pull request`
-
+* To raise a PR go to Github, click  `compare & pull request`. Add a PR title, description and reviewers (colleagues/TL/Managers) and click `create pull request`
 ![](./img/17..PR.png)
 ![](./img/18..PR-number2.png)
 
-After review has been approved then click on the `pull request`,
+* After review has been approved then click on the `pull request`,
 Merge any conflicts,manually or automatically.
-
 ![](./img/19..MergePullRequest.png)
 ![](./img/21..confirmMerge.png)
-
 ![](./img/22.Merge-Success.png)
 
-Delete the branch if NOT needed again.
-
+* Delete the branch if NOT needed again.
 ![](./img/23.DeleteBranch.png)
 
 ### Developer 2-Tekeme
@@ -113,64 +103,59 @@ Delete the branch if NOT needed again.
  8. Merge the work to the main branch
 
  ### Pull the recent changes from github repo
- `git pull`
+ * `git pull`
  ![](./img/DEV2.Gitpull.png)
 
- NOTE: If Developer 2 doesnt have the repository in the first instance, developer can clone the github repo as below
+ * NOTE: If Developer 2 doesnt have the repository in the first instance, developer can clone the github repo as below
 
- #### Clone the current github repository
+* #### Clone the current github repository
   `git clone https://github.com/Edward-okoto/greenwood-Library-website.git`
 
   ![](./img/DEV2.Clone.png) 
 
-  ### Create a branch `update-events`
-  Use the command `git branch update-events` to create the update-events branch.
+### Create a branch `update-events`
+  * Use the command `git branch update-events` to create the update-events branch.
  ### Switch to the branch
-Use the `git switch update-events` command to switch to the branch.
-
+* Use the `git switch update-events` command to switch to the branch.
 ![](./img/DEV2.gitswtich.png)
 
 
 ### Update the events.html file 
-(* add/remove content)
+* (* add/remove content)
 
 ### Stage,commit and push changes with message 'event-font type updated'
-`git status`
+* `git status`
 ![](./img/DEV2.eventfileUpdated.png)
-`git add .`
+* `git add .`
 ![](./img/DEV2.Gitadd.png)
-`git commit -m 'event-font-type updated`
+* `git commit -m 'event-font-type updated`
 ![](./img/DEV2.Gitcommit.png)
 
 ### Push the `update-events` branch to github
-![](./img/DEV2.GitPush.png)
+* ![](./img/DEV2.GitPush.png)
 
 ### Raise a PR for the work
-click `compare & pull request`
-
+* click `compare & pull request`
 ![](./img/DEV2.PR.png)
 
-Add reviewers (Usually, Snr staff), title and description and click `create pull request`
-
+* Add reviewers (Usually, Snr staff), title and description and click `create pull request`
 ![](./img/DEV2.PR-add%20Reviewers.png)
 
-NOTE: After reviewers have approved the update, the work can then be merged to the main line of development, else would need to correct to the new updates and make a fresh PR.
+* NOTE: After reviewers have approved the update, the work can then be merged to the main line of development, else would need to correct to the new updates and make a fresh PR.
 
 ### Merge the work to the main branch
-If there is a conflict, resolved manually or automatically, and merged to the main development line. Click on the  `Merge pull request` button
-
+* If there is a conflict, resolved manually or automatically, and merged to the main development line. Click on the  `Merge pull request` button
 ![](./img/DEV2.MergeConflict.png)
 
-click `confirm merge`
-
+* click `confirm merge`
 ![](./img%20-%20Copy/21..confirmMerge.png)
 
-Click `Delete branch` if not required anymore
-
+* Click `Delete branch` if not required anymore
 ![](./img/DEV2.DeleteBranch.png)
 
 
 # SUMMARY
+
 
 We simulated the contributions of TWO developers 'Trinity' and 'Tekeme' for greenwood community library website. While, Trinity added a `book review` section, Tekeme updated the `Events page` section with new events.These changed were staged, committed and pushed into the main line of development.
 
