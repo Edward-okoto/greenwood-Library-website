@@ -11,7 +11,7 @@ Enhancing  greenwood community website-By adding a Book review section and updat
 ## Set-up & Procedure
  * Create a repository called the greenwood-library-website,made it public and added a README.md file.
 
-    ![](./img/1.Greenwood%20repo.png)
+   ![](./img/Greenwoodfirstrepo.png)
 
  * Clone the repository into our local machine using git.
 
@@ -59,13 +59,14 @@ Enhancing  greenwood community website-By adding a Book review section and updat
  8. Merge the work to the main branch
 
  ### Create a branch `add-book-review`
-use the command `git branch add-book-review` to create the branch called add-book-review
-![](./img/11.git-branch.png)
+* use the command `git branch add-book-review` to create the branch called add-book-review
+
+  ![](./img/11.git-branch.png)
 
 ### Switch to the branch
-Use the `git switch add-book-review` command to switch to the branch.
+   * Use the `git switch add-book-review` command to switch to the branch.
 
-![](./img/12.git-switch.png)
+     ![](./img/12.git-switch.png)
 
 ### Add a new file to represent the book review section 
 * Add a file called book_reviews.html using `touch book_reviews.html` command and add content
