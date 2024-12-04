@@ -68,6 +68,7 @@ Enhancing  greenwood community website-By adding a Book review section and updat
 
      ![](./img/12.git-switch.png)
 
+
 ### Add a new file to represent the book review section 
 * Add a file called book_reviews.html using `touch book_reviews.html` command and add content
 
