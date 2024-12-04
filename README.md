@@ -11,11 +11,12 @@ Enhancing  greenwood community website-By adding a Book review section and updat
 ## Set-up & Procedure
  * Create a repository called the greenwood-library-website,made it public and added a README.md file.
 
-![](./img/1.Greenwood%20repo.png)
+    ![](./img/1.Greenwood%20repo.png)
 
  * Clone the repository into our local machine using git.
-![](./img/2.Gitclone-URL.png)
-![](./img/03.GitcloneOnVSC.png)
+
+     ![](./img/2.Gitclone-URL.png)
+     ![](./img/03.GitcloneOnVSC.png)
 
  # TASK 
 
@@ -67,9 +68,9 @@ Use the `git switch add-book-review` command to switch to the branch.
 ![](./img/12.git-switch.png)
 
 ### Add a new file to represent the book review section 
-Add a file called book_reviews.html using `touch book_reviews.html` command and add content
+* Add a file called book_reviews.html using `touch book_reviews.html` command and add content
 
-![](./img/13..new-branchfile.png)
+  ![](./img/13..new-branchfile.png)
 
 ###  Stage,commit and push changes with message 'Book review
 
@@ -81,17 +82,20 @@ use  `git push` to push to main branch
 
 ### Raise a PR for the work
 * To raise a PR go to Github, click  `compare & pull request`. Add a PR title, description and reviewers (colleagues/TL/Managers) and click `create pull request`
-![](./img/17..PR.png)
-![](./img/18..PR-number2.png)
+ 
+  ![](./img/17..PR.png)
+  ![](./img/18..PR-number2.png)
 
 * After review has been approved then click on the `pull request`,
 Merge any conflicts,manually or automatically.
-![](./img/19..MergePullRequest.png)
-![](./img/21..confirmMerge.png)
-![](./img/22.Merge-Success.png)
+
+  ![](./img/19..MergePullRequest.png)
+  ![](./img/21..confirmMerge.png)
+  ![](./img/22.Merge-Success.png)
 
 * Delete the branch if NOT needed again.
-![](./img/23.DeleteBranch.png)
+
+  ![](./img/23.DeleteBranch.png)
 
 ### Developer 2-Tekeme
  1. Clone the current github repository
@@ -137,22 +141,27 @@ Merge any conflicts,manually or automatically.
 
 ### Raise a PR for the work
 * click `compare & pull request`
-![](./img/DEV2.PR.png)
+
+  ![](./img/DEV2.PR.png)
 
 * Add reviewers (Usually, Snr staff), title and description and click `create pull request`
-![](./img/DEV2.PR-add%20Reviewers.png)
+
+  ![](./img/DEV2.PR-add%20Reviewers.png)
 
 * NOTE: After reviewers have approved the update, the work can then be merged to the main line of development, else would need to correct to the new updates and make a fresh PR.
 
 ### Merge the work to the main branch
 * If there is a conflict, resolved manually or automatically, and merged to the main development line. Click on the  `Merge pull request` button
-![](./img/DEV2.MergeConflict.png)
+ 
+  ![](./img/DEV2.MergeConflict.png)
 
 * click `confirm merge`
-![](./img%20-%20Copy/21..confirmMerge.png)
+
+  ![](./img%20-%20Copy/21..confirmMerge.png)
 
 * Click `Delete branch` if not required anymore
-![](./img/DEV2.DeleteBranch.png)
+
+  ![](./img/DEV2.DeleteBranch.png)
 
 
 # SUMMARY
