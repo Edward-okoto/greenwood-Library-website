@@ -10,6 +10,7 @@ Enhancing  greenwood community website-By adding a Book review section and updat
 
 ## Set-up & Procedure
  * Create a repository called the greenwood-library-website,made it public and added a README.md file.
+
 ![](./img/1.Greenwood%20repo.png)
 
  * Clone the repository into our local machine using git.
