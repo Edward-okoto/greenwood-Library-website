@@ -18,7 +18,7 @@ Enhancing  greenwood community website-By adding a Book review section and updat
      ![](./img/2.Gitclone-URL.png)
      ![](./img/03.GitcloneOnVSC.png)
 
- # TASK 
+ # TASK TO BE COMPLETED
 
  * Create `about_us.html`  `contact_us.html`  `events.html`  `Home.html` files on `VSCode` and added content to these files
 ![](./img/5.Other_SECTIONS_on_VSC.png)
